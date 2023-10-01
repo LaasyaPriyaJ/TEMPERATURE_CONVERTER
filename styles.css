@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffbcfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* ... Other styles ... */
+
+h1 {
+  text-align: center;
+}
+
+.input-section,
+.output-section {
+  margin: 15px 0;
+}
+input[type="number"]::placeholder {
+  text-align: center;
+}
+label {
+  font-weight: bold;
+}
+
+input,
+span {
+  display: block;
+  width: 95%; /* Make the input and output boxes the same width as the button */
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px; /* Add margin below the input and output boxes */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.date-time {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px; /* Add margin after the date-time box */
+}
+
+.temp-field {
+  margin-top: 15px; /* Add margin after the dropdown box */
+}
+
+.input-section {
+  margin-bottom: 15px; /* Add margin after the input box */
+}
