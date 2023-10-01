@@ -1,9 +1,14 @@
 # TEMPERATURE_CONVERTER
 Description
+
 The Temperature Converter Project is a web application that allows users to convert temperatures between Fahrenheit, Celsius, and Kelvin. Additionally, it provides real-time date and time information.
+
 Technologies Used
+
 HTML
+
 CSS
+
 JavaScript
 Features
 Temperature conversion between Fahrenheit, Celsius, and Kelvin.
